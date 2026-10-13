@@ -6,9 +6,11 @@ This repository serves two purposes: **hosting and distributing installers for D
 
 ## 🚀 DeepSeek Harness Installer — New Addition
 
-A cross-platform **DeepSeek Harness Installer Kit (v1.0.2)** has been introduced to simplify downloading, installing, configuring, running, repairing, and uninstalling DeepSeek Harness without requiring users to perform the entire setup manually.
+A cross-platform **DeepSeek Harness Installer Kit (v1.0.3)** has been introduced to simplify downloading, installing, configuring, running, repairing, and uninstalling DeepSeek Harness without requiring users to perform the entire setup manually.
 
-**📦 [Download DeepSeek Harness Installer Kit v1.0.2](https://github.com/AonzOG/deepseek-harness-d743267/blob/master/installers/DeepSeek-Harness-Installer-Kit-v1.0.2.zip)**
+**📦 [Download DeepSeek Harness Installer Kit v1.0.3](https://github.com/AonzOG/deepseek-harness-d743267/blob/master/installers/DeepSeek-Harness-Installer-Kit-v1.0.3.zip)**
+
+**Windows build fix v1.0.3 (13 October 2026):** Live Windows testing of v1.0.2 confirmed successful Git checkout, pinned pnpm installation of 1,398 packages, and progression into the source build. The first failing step was Vite/PostCSS loading an unrelated `postcss.config.js` in the user's TEMP directory, which requested missing `tailwindcss`. Installer v1.0.3 now uses a temporary no-plugin PostCSS configuration in its private staging root, so an outside parent-directory config does not interfere with source compilation; it removes that temporary file after the build. **23 automated tests passed; a complete native Windows build and launch are still awaiting confirmation.** [Previous v1.0.2](https://github.com/AonzOG/deepseek-harness-d743267/blob/master/installers/DeepSeek-Harness-Installer-Kit-v1.0.2.zip) remains available for comparison.
 
 **Windows fix v1.0.2 (13 October 2026):** Corrects the Windows PowerShell 5.1 logging issue in which ordinary `git fetch` progress (such as `From https://github.com/...`) was treated as a terminating error. Native stdout/stderr is now logged while actual nonzero exit codes still fail the operation. **20 tests passed in the development environment; native Windows installation and application launch remain unverified.** [Previous installer v1.0.1](https://github.com/AonzOG/deepseek-harness-d743267/blob/master/installers/DeepSeek-Harness-Installer-Kit-v1.0.1.zip) is preserved for reference.
 
