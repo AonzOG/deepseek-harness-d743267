@@ -6,9 +6,11 @@ This repository serves two purposes: **hosting and distributing installers for D
 
 ## 🚀 DeepSeek Harness Installer — New Addition
 
-A cross-platform **DeepSeek Harness Installer Kit (v1.0)** has been introduced to simplify downloading, installing, configuring, running, repairing, and uninstalling DeepSeek Harness without requiring users to perform the entire setup manually.
+A cross-platform **DeepSeek Harness Installer Kit (v1.0.1)** has been introduced to simplify downloading, installing, configuring, running, repairing, and uninstalling DeepSeek Harness without requiring users to perform the entire setup manually.
 
-**📦 [Download DeepSeek Harness Installer Kit v1.0](https://github.com/AonzOG/deepseek-harness-d743267/blob/master/installers/DeepSeek-Harness-Installer-Kit-v1.0.zip)**
+**📦 [Download DeepSeek Harness Installer Kit v1.0.1](https://github.com/AonzOG/deepseek-harness-d743267/blob/master/installers/DeepSeek-Harness-Installer-Kit-v1.0.1.zip)**
+
+**Windows fix (13 October 2026):** Version 1.0.1 repairs `EPERM: operation not permitted, mkdir 'C:\\'` when installing to `C:\\deepseek-harness`. It avoids recreating an existing drive root and uses a user-writable, same-volume temporary staging directory where possible. The Node verification, source options, and build workflow are unchanged. [Installer v1.0](https://github.com/AonzOG/deepseek-harness-d743267/blob/master/installers/DeepSeek-Harness-Installer-Kit-v1.0.zip) remains available as the historical preview.
 
 The installer provides three source-selection options:
 
