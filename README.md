@@ -1,32 +1,18 @@
 # 📦🚀 ChatFiji DeepSeek Harness Installer
 
-**📅 README updated: 14 October 2026 (Fiji Time)**  
-**🧰 Latest installer: v1.0.3**  
-**✅ Windows x64: Functionally tested**  
-**🧪 macOS and Linux: Development and testing pending**  
-**⚠️ Developer preview — Not security-audited or production-certified**
-
----
-
-## 🚨 CODE ALERT — GPT-6 Astra
-
-### ⚠️ IMPORTANT SOFTWARE, SECURITY AND DEPLOYMENT NOTICE
-
-This repository hosts the **ChatFiji DeepSeek Harness Installer** and preserves an identified snapshot of the original **DeepSeek Harness (DSH)** source code developed by DeepSeek AI.
+This repository hosts the ChatFiji DeepSeek Harness Installer and preserves an identified snapshot of the original DeepSeek Harness (DSH) source code developed by DeepSeek AI.
 
 🟢 The Windows installer has successfully installed, built and launched DeepSeek Harness on a real Windows x64 computer.
-
-🟢 The installed application was used for several hours of actual software development.
 
 🟢 The generated Windows launcher successfully reopened the application after the original backend shell was accidentally closed.
 
 🟠 The first launch required an additional pnpm dependency reinstallation, explained below.
 
-🔴 **No comprehensive, formally documented data-security, cybersecurity, privacy, penetration-testing or production-security audit has been completed or verified for the ChatFiji installer.**
-
-🔴 **macOS and Linux installer execution has not yet been acceptance-tested on those operating systems.**
-
-🚨 Public availability does not establish the installer's suitability for third-party, consumer or internet-exposed production deployment.
+**📅 README updated: 14 October 2026 (Fiji Time)**  
+**🧰 Latest installer: v1.0.3**  
+**✅ Windows x64: Functionally tested**  
+**🧪 macOS and Linux: Development and testing pending**  
+**⚠️ Developer preview — Not security-audited or production-certified**
 
 ---
 
@@ -242,7 +228,17 @@ Third parties must independently assess applicable permissions, compatibility, s
 
 ---
 
-## 🔐 7. Security, cybersecurity and privacy — unaudited
+## 🔐 7. VIBE CODE ALERT! Security, cybersecurity and privacy — unaudited
+
+🚨 Vibe Coded by GPT-6 Astra
+
+⚠️ IMPORTANT SOFTWARE, SECURITY AND DEPLOYMENT NOTICE
+
+🔴 No comprehensive, formally documented data-security, cybersecurity, privacy, penetration-testing or production-security audit has been completed or verified for the ChatFiji installer.
+
+🔴 macOS and Linux installer execution has not yet been acceptance-tested on those operating systems.
+
+🚨 Public availability does not establish the installer's suitability for third-party, consumer or internet-exposed production deployment.
 
 ### 🚨 CODE ALERT: NO COMPREHENSIVE SECURITY ASSURANCE
 
