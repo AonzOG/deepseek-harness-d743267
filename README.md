@@ -24,7 +24,7 @@ d743267388641bc76f17c45ce8b4c231aed1d32c
 
 Upstream commit date: 9 October 2026.
 
-## Download
+# Download
 
 DeepSeek Harness Installer Kit v1.0.3
 
@@ -33,6 +33,22 @@ DeepSeek Harness Installer Kit v1.0.3
 🟢 The generated Windows launcher successfully reopened the application after the original backend shell was accidentally closed.
 
 🟠 The first launch required an additional pnpm dependency reinstallation, explained below.
+
+# Windows Installation Demonstrate Verified Functional Behaviour
+
+Automatic installation and verification of the local Node.js runtime.
+
+Git-based retrieval of the selected DeepSeek Harness source.
+
+Installation of the required pnpm dependencies.
+
+Successful compilation and build of the application.
+
+Startup of the DeepSeek Harness local Web UI.
+
+Several hours of actual coding activity using the installed application.
+
+Successful reopening of DeepSeek Harness using its generated Windows launcher after the original backend shell was closed.
 
 ---
 
