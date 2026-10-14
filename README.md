@@ -1,18 +1,38 @@
 # 📦🚀 ChatFiji DeepSeek Harness Installer
 
-This repository hosts the ChatFiji DeepSeek Harness Installer and preserves an identified snapshot of the original DeepSeek Harness (DSH) source code developed by DeepSeek AI.
+**📅 README updated: 14 October 2026 (Fiji Time)**  
+**🧰 Latest installer: v1.0.3**  
+**✅ Windows x64: Functionally tested**  
+**🧪 macOS and Linux: Development and testing pending**  
+**⚠️ Developer preview — Not security-audited or production-certified**
+
+## About the ChatFiji DeepSeek Harness Installer
+
+This repository hosts the ChatFiji DeepSeek Harness Installer, developed to simplify the installation, configuration, dependency management, launching, repair, and removal of DeepSeek Harness (DSH).
+
+The installer offers three source options:
+
+Official DeepSeek Harness: https://github.com/deepseek-ai/deepseek-harness
+
+ChatFiji-hosted preserved source: https://github.com/AonzOG/deepseek-harness-d743267
+
+Custom repository: A user-provided URL for another compatible GitHub repository, fork, or imported copy.
+
+The repository also preserves the original DeepSeek Harness source at upstream commit:
+
+d743267388641bc76f17c45ce8b4c231aed1d32c
+
+Upstream commit date: 9 October 2026.
+
+## Download
+
+DeepSeek Harness Installer Kit v1.0.3
 
 🟢 The Windows installer has successfully installed, built and launched DeepSeek Harness on a real Windows x64 computer.
 
 🟢 The generated Windows launcher successfully reopened the application after the original backend shell was accidentally closed.
 
 🟠 The first launch required an additional pnpm dependency reinstallation, explained below.
-
-**📅 README updated: 14 October 2026 (Fiji Time)**  
-**🧰 Latest installer: v1.0.3**  
-**✅ Windows x64: Functionally tested**  
-**🧪 macOS and Linux: Development and testing pending**  
-**⚠️ Developer preview — Not security-audited or production-certified**
 
 ---
 
